@@ -3,7 +3,7 @@
 
 Uses only native Dart libraries to construct immutable data objects. The "schema" is implicit in the way those objects are created and serialized.
 
-Data object classes are defined in [schema](./lib/model/ir_model.dart). One interesting difference between this model and the schema-generated models is that it allows true inheritence; note the differences in the Component model. I'm not sure this is the right way to go since there is a bit more overhead and runtime type inference needed to serialize/deserialize those objects but it seems a bit cleaner from an OO standpoint. I'm sure this code can be improved.
+Data object classes are defined [here](./lib/model/ir_model.dart). One interesting difference between this model and the schema-generated models is that it allows true inheritence; note the differences in the Component model. I'm not sure this is the right way to go since there is a bit more overhead and runtime type inference needed to serialize/deserialize those objects but it seems a bit cleaner from an OO standpoint. I'm sure this code can be improved.
 
 In any case, the [parser](./lib/parser.dart) is very simple code:
 
