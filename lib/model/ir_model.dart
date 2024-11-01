@@ -90,7 +90,7 @@ class EnumValues<T> {
     }
 }
 
-class Component {
+abstract class Component {
     final ComponentType componentType;
     final double height;
     final double width;
